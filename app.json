@@ -1,0 +1,15 @@
+{
+  "name": "Pythoneux crypto bot",
+  "description": "The server side for Pythoneux.",
+  "image": "heroku/python",
+  "repository": "https://github.com/sapien47/pythoneux",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "mybot.py test"
+      }
+    }
+  }
+}
